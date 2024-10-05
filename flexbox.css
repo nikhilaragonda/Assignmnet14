@@ -1,0 +1,63 @@
+.flexbox{
+   display:flex;
+   flex-wrap: wrap;
+   gap: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+   width: 100%;
+   text-align: center;
+   align-items: center;
+   
+   
+  
+}
+
+.coding,.cycling{
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px;
+
+}
+.coding:hover{
+    transform: scale(1.2);
+}
+.cooking:hover{
+    transform: scale(1.2);
+}
+.cycling:hover{
+    transform: scale(1.2);
+}
+.cooking{
+    width: 250px;
+    background-color:deeppink;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px 0px;
+
+}
+
+img{
+    width: 12vw;
+    height: 24vh;
+    border-radius: 100%;
+   margin-top: 10%;
+   box-shadow: 0px 2px 3px 0px;
+ 
+}
+h1:hover{
+    transform: scale(1.2);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-size: 150%;
+}
+
+
